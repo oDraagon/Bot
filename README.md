@@ -1,4 +1,4 @@
-# bot-discord
+# Honkai Guide - Discord Bot
 
 To install dependencies:
 
