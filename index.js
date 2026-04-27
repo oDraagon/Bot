@@ -1,5 +1,8 @@
 import { Client, GatewayIntentBits, EmbedBuilder} from 'discord.js';
-import personagens from '../bot-discord/personagens.js';
+import personagens from '../Bot/personagens.js';
+
+const token = process.env.DISCORD_TOKEN;
+const prefix = process.env.PREFIX;
 
 const client = new Client({
   intents: [
@@ -10,7 +13,6 @@ const client = new Client({
   ]
 });
 
-const prefix = '!';
 
 client.on('clientReady', () => {
   console.log(`Bot online como ${client.user.tag}`);
@@ -226,3 +228,5 @@ client.on('messageCreate', (message) => {
     });
   }
 });
+
+client.login(process.env.DISCORD_TOKEN);
