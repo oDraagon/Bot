@@ -3,6 +3,8 @@ import personagens from '../Bot/personagens.js';
 
 const token = process.env.DISCORD_TOKEN;
 const prefix = process.env.PREFIX;
+const MEU_ID = process.env.MEUID
+const block = process.env.BLOCK
 
 const client = new Client({
   intents: [
@@ -33,10 +35,8 @@ client.on('messageCreate', (message) => {
 
   if (command !== 'eu') return;
 
-  const MEU_ID = '270919243011194880'
-
   if (message.author.id === MEU_ID) {
-    return message.reply(`Este é o meu criador (Boboca Master) ${message.member}!`)
+    return message.reply(`Este é o meu criador ${message.member}!`)
   }
 
   if (command === 'eu') {
@@ -112,10 +112,8 @@ client.on('messageCreate', (message) => {
   if (command === 'build') {
     const nome = args[0];
 
-    const block = '214471280466853900' //Retirar depois
-
     if (message.author.id === block) { //Retirar depois
-      return message.reply(`${message.member}, maldito, ainda não temos a build dessa boneca! `)
+      return message.reply(`${message.member}, para quieto, seu chato >:C `)
     };
 
     if (!nome) {
@@ -229,4 +227,4 @@ client.on('messageCreate', (message) => {
   }
 });
 
-client.login(process.env.DISCORD_TOKEN);
+client.login(token);
