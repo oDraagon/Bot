@@ -8,7 +8,7 @@ export default {
             description: 'Main-Dps focada em dano Quantum Bruto, como personagem do caminho da Caça, Seele é uma personagem que em sua NovaFlare tem um valor mais alto de dano por Repetição, quero dizer, ela vai causar muito dano utilizando muitas pericias, então tome cuidado com seu time para não ficar sem pontos, foque em personagens de Buff para o dano de sua Skill ou Sub-Dps que possam dar algum valor de dano para ela, assim como Tribbie, Cipher ou Ashveil.',
 
             images: {
-                overview: 'https://media.discordapp.net/attachments/761056148135608320/1496914405529747688/image.png?ex=69eb9dad&is=69ea4c2d&hm=febffa13df356a7b5b1a095af312b529618a9e0316858825690ac1672232babc&=&format=webp&quality=lossless',
+                overview: 'https://github.com/oDraagon/Bot/blob/main/assets/images/SeeleOverview.png?raw=true',
                 relics: 'https://static.wikia.nocookie.net/houkai-star-rail/images/5/58/Character_Seele_Splash_Art.png/revision/latest/scale-to-width-down/1000?cb=20240121123334',
                 teams: 'https://static.wikia.nocookie.net/houkai-star-rail/images/7/78/Light_Cone_In_the_Night.png/revision/latest?cb=20230719030418'
             },
